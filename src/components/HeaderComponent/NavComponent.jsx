@@ -1,10 +1,7 @@
 function NavComponent() {
     return(
-        <nav>
-            <ul>
-                <li><a href="#">Tic Tac Toe</a></li>
-                <li><a href="#">Sobre</a></li>
-            </ul>
+        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center" >
+                <a className="mr-5 hover:text-gray-900" >Sobre</a>
         </nav>
     ); 
 }
