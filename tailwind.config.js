@@ -19,6 +19,7 @@ export default {
             emerald: colors.emerald,
             gray: colors.gray,
             indigo: colors.indigo,
+            rose: colors.rose,
             yellow: colors.yellow,
             white: colors.white,
             error: {
@@ -43,7 +44,7 @@ export default {
             },
         },
         fontFamily: {
-            sans: ['Graphik', 'sans-serif'],
+            sans: ['Montserrat', 'sans-serif'],
             serif: ['Merriweather', 'serif'],
         },
         extend: {
